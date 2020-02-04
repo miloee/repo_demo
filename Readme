@@ -1,0 +1,5 @@
+1. git clone "this repo"
+2. crepo init "tag file"
+3. crepo sync #use tag to update subrepos
+
+Before use this demo, please clone git@github.com:miloee/crepo.git first, and use "export PATH={crepo path}:$PATH" to set the script command
