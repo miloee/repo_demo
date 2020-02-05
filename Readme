@@ -1,6 +1,9 @@
 1. git clone "this repo"
-2. crepo init "tag file"
+2. crepo init "tag file" #clone all repos according to tag file
 3. crepo sync #use tag to update subrepos
-4. crepo gen_tag "tag file" #generate tag file according to current commit. 'master' means the repo is under developing, no need to change
+4. crepo tag update "tag file" #update tag file according to current commit. 'master' means the repo is under developing, no need to change
+5. crepo tag init "tag file" #create tag file by searching ".git" folder
+6. crepo develop "repo name" #checkout to master and update to latest "git checkout master && git pull"
+
 
 Before use this demo, please clone git@github.com:miloee/crepo.git first, and use "export PATH={crepo path}:$PATH" to set the script command
