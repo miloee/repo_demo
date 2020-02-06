@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote fetch="git@github.com/miloee/repo_demo" name="origin" review=""/>
+<default remote="origin" revision="master"/>
+<project name="git@github.com:miloee/cs231n.git" path="ai/cs231n" revision="master"/>
+<project name="git@github.com:miloee/xv6.git" path="os/6.828/" revision="master"/>
+</manifest>
