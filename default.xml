@@ -2,6 +2,6 @@
 <manifest>
 <remote fetch="https://github.com/miloee/repo_demo" name="origin"/>
 <default remote="origin" revision="master"/>
-<project name="https://github.com/miloee/cs231n.git" path="ai/cs231n" revision="master"/>
+<project name="https://github.com/miloee/cs231n.git" path="ai/cs231n" revision="2490b8f6aee6f1b31c6424e274ae24c90a8e239f"/>
 <project name="https://github.com/miloee/xv6.git" path="os/6.828/" revision="master"/>
 </manifest>
